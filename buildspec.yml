@@ -6,4 +6,4 @@ phases:
       - docker build -t awsnodespakpi/node-1:1.0.0 .
   build:
     commands:
-      - docker run awsnodespakpi/node:1.0.0
+      - docker run -d awsnodespakpi/node
