@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - docker build -t awsnodespakpi/node-1:1.0.0 .
+  build:
+    commands:
+      - docker run awsnodespakpi/node:1.0.0
