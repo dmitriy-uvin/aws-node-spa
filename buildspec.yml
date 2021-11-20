@@ -6,4 +6,4 @@ phases:
       - docker build -t spa-node-app .
   build:
     commands:
-      - docker run -dp 8081:5555 spa-node-app
+      - docker run -dp 5555:5555 spa-node-app

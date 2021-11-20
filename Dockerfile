@@ -6,6 +6,6 @@ COPY . .
 
 RUN ./scripts/deploy.sh
 
-EXPOSE 8081
+EXPOSE 5555
 
 CMD ["node", "server.js"]
